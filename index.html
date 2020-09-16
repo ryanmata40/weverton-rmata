@@ -12,6 +12,20 @@
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
     <link rel="icon" href="favicon.png">
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+    </script>
+    <script>
+        (function () {
+            window.onload = function () {
+                new BlipChat()
+                .withAppKey('ZGV2cHJvY2Vzc29zZWxldGl2bzE6MDBmN2ZkODYtMmNhZC00YjdiLWFjOGMtODk4OTVkYjliZWNm')
+                .withButton({"color":"#e08e10","icon":"https://s3-sa-east-1.amazonaws.com/msging.net/iris/Media_5c31861a-4170-4a81-9492-84b32b5d67d6"})
+                .withCustomCommonUrl('https://chat.blip.ai/')
+                .build();
+            }
+        })();
+    </script>
+    
   </head>
   <body id="top">
     <header>
